@@ -1,0 +1,13 @@
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+logging: 
+  level:   
+    com.pro.common: DEBUG
+    org.springframework.web: ERROR
+    org.springframework.security: ERROR
+    org.hibernate: ERROR    
+  file: PRO-LOGIN-SERVICE.log

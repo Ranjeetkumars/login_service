@@ -1,0 +1,40 @@
+2021-09-01 22:03:04.364  INFO 7876 --- [main] com.pro.login.LoginServiceApplication    : Starting LoginServiceApplication on DESKTOP-RBAO669 with PID 7876 (E:\SCM_Priya\login_services\target\classes started by Admin in E:\SCM_Priya\login_services)
+2021-09-01 22:03:04.375  INFO 7876 --- [main] com.pro.login.LoginServiceApplication    : No active profile set, falling back to default profiles: default
+2021-09-01 22:03:05.718  INFO 7876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-01 22:03:05.746  INFO 7876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-09-01 22:03:06.442  INFO 7876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-01 22:03:06.796  INFO 7876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1000 (http)
+2021-09-01 22:03:06.810  INFO 7876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-01 22:03:06.811  INFO 7876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-01 22:03:07.010  INFO 7876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/login]  : Initializing Spring embedded WebApplicationContext
+2021-09-01 22:03:07.146  WARN 7876 --- [main] com.zaxxer.hikari.HikariConfig           : VENKAT - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2021-09-01 22:03:07.152  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : VENKAT - Starting...
+2021-09-01 22:03:07.607  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : VENKAT - Start completed.
+2021-09-01 22:03:07.607  WARN 7876 --- [main] com.zaxxer.hikari.HikariConfig           : VENKAT - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2021-09-01 22:03:07.607  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : VENKAT - Starting...
+2021-09-01 22:03:07.649  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : VENKAT - Start completed.
+2021-09-01 22:03:07.650  INFO 7876 --- [main] c.p.l.config.MultiTenancyConfiguration   : com.zaxxer.hikari.HikariConfig@7efe7b87
+2021-09-01 22:03:15.128  INFO 7876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-01 22:03:15.786  INFO 7876 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-01 22:03:16.415  INFO 7876 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 74e2ab5a-10d7-4876-a3ea-76788c9f6dbf
+
+2021-09-01 22:03:16.693  INFO 7876 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-01 22:03:16.717  INFO 7876 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-01 22:03:16.774  INFO 7876 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-01 22:03:17.075  INFO 7876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1000 (http) with context path '/login'
+2021-09-01 22:03:17.078  INFO 7876 --- [main] com.pro.login.LoginServiceApplication    : Started LoginServiceApplication in 13.451 seconds (JVM running for 14.534)
+2021-09-01 22:03:44.326  INFO 7876 --- [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/login]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-01 22:03:44.370  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : null:::::::::::: tenatID null
+2021-09-01 22:03:44.370  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : CommonDataInterceptor.preHandle ---> Req1
+2021-09-01 22:03:44.371  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req1:::::::::::: Request URL: http://127.0.0.1:1000/login/supportlogin/login
+2021-09-01 22:03:44.371  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req1:::::::::::: Request IP: 127.0.0.1
+2021-09-01 22:03:44.371  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req1:::::::::::: Start Time: 2021-09-01 22:03:44.370
+2021-09-01 22:03:44.384  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req1:::::::::::: AfterCompletion of Time Taken For Excecution: 14 ms
+2021-09-01 22:03:44.398  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : null:::::::::::: tenatID null
+2021-09-01 22:03:44.398  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : CommonDataInterceptor.preHandle ---> Req2
+2021-09-01 22:03:44.398  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req2:::::::::::: Request URL: http://127.0.0.1:1000/login/supportlogin/login
+2021-09-01 22:03:44.398  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req2:::::::::::: Request IP: 127.0.0.1
+2021-09-01 22:03:44.398  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req2:::::::::::: Start Time: 2021-09-01 22:03:44.398
+2021-09-01 22:03:44.945  INFO 7876 --- [http-nio-1000-exec-1] c.p.l.i.CommonDataInterceptor            : Req2:::::::::::: AfterCompletion of Time Taken For Excecution: 547 ms
